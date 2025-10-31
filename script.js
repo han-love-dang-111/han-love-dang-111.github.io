@@ -817,7 +817,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   " audio/a.mp3"
+   " https://github.dev/han-love-dang-111/nh-c/blob/d512bf000ae671cfa5458b40b16249cf9549357f/a%20(mp3cut.net).mp3"
   ];  
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
