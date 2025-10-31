@@ -612,7 +612,8 @@ scene.add(planet);
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
   'Happy 1 Year Anniversary',
-  "1/11/2026",
+  "1/11/2026 ",
+  "Chúc Tình Yêu Mình Luôn Bền Vững ",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -817,7 +818,7 @@ let galaxyAudio = null;
 
 function preloadGalaxyAudio() {
   const audioSources = [
-   " https://github.dev/han-love-dang-111/nh-c/blob/d512bf000ae671cfa5458b40b16249cf9549357f/a%20(mp3cut.net).mp3"
+   "audio/a.mp3"
   ];  
 
   const randomIndex = Math.floor(Math.random() * audioSources.length);
