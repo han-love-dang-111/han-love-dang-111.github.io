@@ -611,9 +611,9 @@ scene.add(planet);
 
 // ---- TẠO CÁC VÒNG CHỮ QUAY QUANH HÀNH TINH ----
 const ringTexts = [
-  'Happy 1 Year Anniversary',
-  "1/11/2026 ",
-  "Chúc Tình Yêu Mình Luôn Bền Vững ",
+  'Happy 1 Year Anniversary 🎉🎊',
+  "💕 1/11/2026 💕 ",
+  "❤️ Chúc Tình Yêu Mình Luôn Bền Vững ❤️",
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
